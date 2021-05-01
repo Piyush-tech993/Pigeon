@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px 1px rgb(77, 77, 77);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar, .navbar__logo{
+    display: flex;
+}
+
+.navbar .sign__btn{
+    width: 100px;
+    border: 2px solid #0085d7;
+    border-radius: 25px;
+    padding: 8px;
+    outline: none;
+}
+
+.sign__in{
+    background-color: #fff;
+    color: #0085d7;
+}
+
+.sign__up{ 
+    background-color: #0085d7;
+    color: #fff;
+}
+
+.sign__in:hover{
+    background-color: #0085d733;
+    cursor: pointer;
+}
+
+.sign__up:hover{
+    background-color: #1097eb;
+    cursor: pointer;
+}
